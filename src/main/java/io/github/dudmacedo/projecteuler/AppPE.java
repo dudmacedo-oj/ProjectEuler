@@ -19,14 +19,14 @@ public class AppPE {
 			
 			p.run();
 			
-			System.out.println("\nResultado:" + p.getResultado());
+			System.out.println("\nResultado: " + p.getResultado());
 		} else {
 			System.out.println("\nCódigo de problema inválido");
 		}
 		
 		System.out.println("\nFIM");
 		
-		
+		sc.close();
 	}
 
 }
