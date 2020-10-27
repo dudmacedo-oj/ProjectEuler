@@ -10,6 +10,8 @@ public interface Problema {
 			return new Problema0002();
 		case 3:
 			return new Problema0003();
+		case 4:
+			return new Problema0004();
 		default:
 			return null;
 		}
