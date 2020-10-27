@@ -4,6 +4,8 @@ public interface Problema {
 
 	public static Problema getProblema(Integer idProblema) {
 		switch (idProblema) {
+		case 1:
+			return new Problema0001();
 		default:
 			return null;
 		}
@@ -13,8 +15,8 @@ public interface Problema {
 
 	public String getDescricao();
 
-	public void run();
-	
 	public String getResultado();
+
+	public void run();
 
 }
