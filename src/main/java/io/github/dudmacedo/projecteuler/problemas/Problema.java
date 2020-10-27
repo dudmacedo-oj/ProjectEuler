@@ -6,6 +6,8 @@ public interface Problema {
 		switch (idProblema) {
 		case 1:
 			return new Problema0001();
+		case 2:
+			return new Problema0002();
 		default:
 			return null;
 		}
