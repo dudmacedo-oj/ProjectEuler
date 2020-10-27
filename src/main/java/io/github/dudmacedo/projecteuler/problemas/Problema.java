@@ -8,6 +8,8 @@ public interface Problema {
 			return new Problema0001();
 		case 2:
 			return new Problema0002();
+		case 3:
+			return new Problema0003();
 		default:
 			return null;
 		}
